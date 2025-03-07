@@ -3,36 +3,45 @@
 }
 .testing_none{
     display: none;
-}.box-1{
-    margin: 50px 600px 0 600px;
-    padding: 50px;
-    background-color: black;
 }
-.flot{
+.testing_flot{
     padding: 30px;
-    background-color: antiquewhite;
     max-width: 300px;
     box-sizing: border-box;
+    margin-left: 20%;
 }
-.flot_proporty{
+.testing_flot-bg-color{
+    background-color: antiquewhite;
+}
+.flot-proporty{
     width: 200px;
     height: 400px;
     float: left;
     margin: 0 20px 20px 0px;
-    
 }
 .clear{
     clear: left;
 }
-.box-2{
-    background-color: blanchedalmond;
-     padding: 50px;
-}
-.box-3{
-    background-color: blue;
+.box1{
+    margin: 50px 50% 0 20%;
     padding: 50px;
 }
-.box-4{
+.box1-bg{
+    background-color: bisque;
+}
+.box2{
+     padding: 50px;
+}
+.box2-bg{
+    background-color: aqua;
+}
+.box3{
+    padding: 50px;
+}
+.box3-bg{
+    background-color: darkolivegreen;
+}
+.box4-bg{
     background-color: brown;
 }
 
@@ -48,6 +57,7 @@
     position: relative;
     max-width: 500px;
     border: solid 1px black;
+    margin:  20px 0 0 20%;
 }
 
 
@@ -59,3 +69,32 @@
 .positoning_img1{
     padding: 50px;
 }
+.overflowConcpt1{
+    max-width: 400px;
+    max-height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: scroll;
+    background-color: antiquewhite;
+    margin: 20px 0 0 20%;
+
+}
+
+.headings::first-letter{
+    font-size: 35px;
+    color: red;
+}
+
+
+.box1::after {
+    content: "  ";
+    right: 200px;
+    top: 800px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    white-space: nowrap; 
+    border-radius: 50%;   
+    box-shadow: 0px 0px 4px #222;  
+    background-image: linear-gradient(#f50404, #2e47cf);  
+  }
