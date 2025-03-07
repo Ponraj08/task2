@@ -1,0 +1,42 @@
+.fst{
+    visibility: hidden;
+}
+.sec{
+    display: none;
+}.box-1{
+    margin: 50px 600px 0 600px;
+    padding: 50px;
+    background-color: black;
+}
+.box-2{
+    background-color: blanchedalmond;
+     padding: 50px;
+}
+.box-3{
+    background-color: blue;
+    padding: 50px;
+}
+.box-4{
+    background-color: brown;
+}
+.flot{
+    padding: 30px;
+    background-color: antiquewhite;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+.flot_proporty{
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin: 0 20px 20px 0px;
+
+}
+.clear{
+    clear: left;
+}
+@media screen and (max-width:600px){
+   .flot{
+    background-color: blue;
+   }
+}
